@@ -10,12 +10,12 @@ about_page = st.Page(
     default=True
 )
 codenotes_page = st.Page(
-    page="views/codenotes.py",
-    title="Code Notes",
+    page="views/formulabooklet.py",
+    title="Formula Booklet (UBC)",
     icon=":material/code:",
 )
 mathnotes_page = st.Page(
-    page="views/mathnotes.py",
+    page="views/latexconverter.py",
     title="English to LaTex Converter",
     icon=":material/function:"
 )
