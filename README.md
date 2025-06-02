@@ -2,6 +2,8 @@
 
 **InnoVault** is a simple tool designed to make note-taking and project writing easier for students. Whether you're preparing academic content or working on assignments, InnoVault aims to streamline the process.
 
+**Project accessible at https://innovault.streamlit.app/**
+
 ## ✨ Features
 
 - 📄 **English to LaTeX Converter**  
