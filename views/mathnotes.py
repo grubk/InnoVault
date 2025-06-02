@@ -4,7 +4,7 @@ from azure.ai.inference import ChatCompletionsClient
 from azure.ai.inference.models import SystemMessage, UserMessage
 from azure.core.credentials import AzureKeyCredential
 
-with open("secrets.toml", "r") as f:
+with open(".streamlit/secrets.toml", "r") as f:
     config = toml.load(f)
 
 token = config.get("auth", {}).get("GITHUB_TOKEN")
